@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import { products } from '../data/products/page';
+import { products } from '../data/products/data';
 const ProdcutArea = () => {
   return (
     <>
