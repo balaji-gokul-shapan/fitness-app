@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image.js';
 import React, { useState } from 'react';
-import { FeedbackData } from '../data/feedback/page';
+import { FeedbackPage } from '../data/feedback/page';
 
 const Feedback = () => {
   const [position, setPosition] = useState(0);
@@ -39,7 +39,7 @@ const Feedback = () => {
           style={{ transform: `translateX(${position}px)` }}
           className="flex flex-col md:flex-row items-center justify-center p-2 m-2">
           <div className="flex flex-col md:flex-row border-b-4 border-tahiti shadow-2xl hover:opacity-80 hover:shadow hover:shadow-slate-500 hover:shadow-2xl bg-gray-800 shadow-lg shadow-slate-500 shadow-xl">
-            {FeedbackData.map((item, i) => (
+            {FeedbackPage.map((item, i) => (
               <div
                 key={i}
                 className="flex flex-col bg-gray-800 rounded p-2 m-2 w-full md:w-auto items-center justify-center">
