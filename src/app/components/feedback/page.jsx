@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image.js';
 import React, { useState } from 'react';
-import {FeedbackPage} from '../data/feedback/data'
+import {FeedbackPage} from '../data/feedback/dataa'
 
 const Feedback = () => {
   const [position, setPosition] = useState(0);
