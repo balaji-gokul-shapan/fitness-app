@@ -1,6 +1,6 @@
 import user1 from '../../../../../public/feedback/user-1.png';
 import user2 from '../../../../../public/feedback/user-2.png';
-export const FeedbackData = [
+export const FeedbackPage  = [
   {
     id: 1,
     name: 'John Doe',
